@@ -12,15 +12,19 @@ function loginAuth($usrName, $usrPassword) {
 	//echo "loginAuth method run";
 	$db = mysqli_connect("127.0.0.1", "admin", "password", "490db");
 
-	$authUser = "SELECT * FROM it490 WHERE username='$usrName' AND password='$usrPassword'";
-	$confirmAuth = mysqli_query($db, $authUser);
-        if (mysqli_num_rows($confirmAuth) == 1) {
-	    echo "\nmatching username and password found\n";
-            return true;
-        } else {
-            echo "\nNO matching username and password found\n";
-	    return false;
-        }
+	if  (!$db) {
+	     die("MySQL Connection Failed: " . mysqli_connect_error() );
+	} else {
+	     $authUser = "SELECT * FROM login WHERE username='$usrName' AND password='$usrPassword'";
+             $confirmAuth = mysqli_query($db, $authUser);
+             if (mysqli_num_rows($confirmAuth) == 1) {
+                 echo "\nusername and password found in table\n";
+                 return true;
+             } else {
+                 echo "\nusername and password NOT found in table\n";
+                 return false;
+             }
+	}
 }
 
 function requestProcessor($request)
