@@ -12,6 +12,7 @@
 	     echo "Account created"; 
 	} else {
              //echo "\nregister_auth.php: ";
+	     echo "Username or Email already exists";
 	}
 
 ?>
