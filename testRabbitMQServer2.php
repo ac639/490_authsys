@@ -10,7 +10,7 @@ require_once('rabbitMQLib.inc');
 
 function loginAuth($usrName, $usrPassword) {
 	//echo "loginAuth method run";
-	$db = mysqli_connect("192.168.1.5", "asif2", "njit123", "490db");
+	$db = mysqli_connect("127.0.0.1", "asif2", "njit123", "490db");
 
 	if  (!$db) {
 	     die("MySQL Connection Failed: " . mysqli_connect_error() );
