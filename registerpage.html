@@ -2,14 +2,14 @@
 <html>
     <head>
         <meta charset="UTF-8"> 
-        <title>Login Page</title>
+        <title>Register Page</title>
         <link rel="stylesheet" type="text/css" href="ecp_css.css"/>
         <!-- <script src="ecp_js.js"></script> -->
     </head>
     <body>
             <table style="width:60%">
                 <tr>
-                    <th>Login Page</th>
+                    <th>Register Page</th>
                     <th></th>            
                 </tr>
             
@@ -26,26 +26,33 @@
                         <input type="text" name="usrPassword" class="textInput">
                     </th>
                 </tr>
+
+                <tr>
+                    <th>E-mail:</th>
+                    <th>
+                        <input type="text" name="usrEmail" class="textInput">
+                    </th>
+                </tr>
+
             
                 <tr>                                       
                     <th></th> <!--Empty on purpose-->
                     <th>
-			<form method = "post" action="login_auth.php">
-			     <input type="submit" name="loginButton" value="Login">
+			<form method = "post" action="register_auth.php">
+			     <input type="submit" name="createButton" value="Create Account">
 			</form>
                     </th>
-                </tr>
-		
-		<tr>
+                </tr>  
+                <tr>
                     <th></th> <!--Empty on purpose-->
                     <th>
-		         <form method = "post" action="registerpage.html">
-                             <input type="submit" name="registerButton" value="Register">
-                         </form>
-		    </th>
+                        <form method = "post" action="loginpage.html">
+                             <input type="submit" name="backLogin" value="Go back to Login">
+                        </form>
+                    </th>
                 </tr>
-		
-    
+
+  
             </table>         
     </body>
 </html>
