@@ -36,7 +36,7 @@ function registerAuth($usrName,$usrPassword,$usrEmail) {
 	     $searchEmail = "SELECT * FROM login WHERE email='$usrEmail'";
              $checkUserExist = mysqli_query($db, $searchUser);
              $checkEmailExist = mysqli_query($db, $searchEmail);
-	     if (mysqli_num_rows($checkUserExist) == 1 || mysqli_num_rows($checkEmailEixst) == 1 ) {
+	     if (mysqli_num_rows($checkUserExist) == 1 || mysqli_num_rows($checkEmailExist) == 1 ) {
 		echo "\nusername or password already exist\n";
 	        return false;
 	     } else {
