@@ -28,7 +28,7 @@ function loginAuth($usrName, $usrPassword) {
 }
 
 function registerAuth($usrName,$usrPassword,$usrEmail) {
-	$db = mysqli_connect("192.168.1.5", "asif2", "njit123", "490db");
+	$db = mysqli_connect("127.0.0.1", "asif2", "njit123", "490db");
         if  (!$db) {
              die("MySQL Connection Failed: " . mysqli_connect_error() );
         } else {
@@ -36,14 +36,17 @@ function registerAuth($usrName,$usrPassword,$usrEmail) {
 	     $searchEmail = "SELECT * FROM login WHERE email='$usrEmail'";
              $checkUserExist = mysqli_query($db, $searchUser);
              $checkEmailExist = mysqli_query($db, $searchEmail);
-	     if (mysqli_num_rows($checkUserExist) == 1 || mysqli_num_rows($checkEmailExist) == 1 ) {
-		echo "\nusername or password already exist\n";
-	        return false;
-	     } else {
-	        mysqli_query($db,"INSERT INTO login (username, password, email) VALUES ('$usrName', '$usrPassword', '$usrEmail')");
+	     if (mysqli_num_rows($checkUserExist) == 1) {
+	          echo "\nusername already exists\n";
+                  return false;
+             } elseif (mysqli_num_rows($checkEmailExist) == 1 ) {
+                  echo "\nemail already exists\n";
+		  return false;
+             } else {
+                mysqli_query($db,"INSERT INTO login (username, password, email) VALUES ('$usrName', '$usrP$
                 echo "\naccount created\n";
                 return true;
-             }
+	     }
        }
 }
 
