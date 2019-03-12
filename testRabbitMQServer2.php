@@ -43,7 +43,7 @@ function registerAuth($usrName,$usrPassword,$usrEmail) {
                   echo "\nemail already exists\n";
 		  return false;
              } else {
-                mysqli_query($db,"INSERT INTO login (username, password, email) VALUES ('$usrName', '$usrPassword', '$usrEmail')");
+                mysqli_query($db, "INSERT INTO login(username, password, email) VALUES('$usrName', '$usrPassword', '$usrEmail')");
                 echo "\naccount created\n";
                 return true;
 	     }
