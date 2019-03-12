@@ -17,7 +17,7 @@ function loginAuth($usrName, $usrPassword) {
 	} else {
 	     $authUser = "SELECT * FROM login WHERE username='$usrName' AND password='$usrPassword'";
              $confirmAuth = mysqli_query($db, $authUser);
-             if (mysqli_num_rows($confirmAuth) => 1) {
+             if (mysqli_num_rows($confirmAuth) >= 1) {
                  echo "\nusername and password found in table\n";
                  return true;
              } else {
@@ -36,10 +36,10 @@ function registerAuth($usrName,$usrPassword,$usrEmail) {
 	     $searchEmail = "SELECT * FROM login WHERE email='$usrEmail'";
              $checkUserExist = mysqli_query($db, $searchUser);
              $checkEmailExist = mysqli_query($db, $searchEmail);
-	     if (mysqli_num_rows($checkUserExist) => 1) {
+	     if (mysqli_num_rows($checkUserExist) >= 1) {
 	          echo "\nusername already exists\n";
                   return false;
-             } elseif (mysqli_num_rows($checkEmailExist) => 1 ) {
+             } elseif (mysqli_num_rows($checkEmailExist) >= 1 ) {
                   echo "\nemail already exists\n";
 		  return false;
              } else {
