@@ -17,7 +17,7 @@ function loginAuth($usrName, $usrPassword) {
 	} else {
 	     $authUser = "SELECT * FROM login WHERE username='$usrName' AND password='$usrPassword'";
              $confirmAuth = mysqli_query($db, $authUser);
-             if (mysqli_num_rows($confirmAuth) == 1) {
+             if (mysqli_num_rows($confirmAuth) => 1) {
                  echo "\nusername and password found in table\n";
                  return true;
              } else {
