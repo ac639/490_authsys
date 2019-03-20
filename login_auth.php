@@ -1,5 +1,5 @@
 <?php
-	//session_start();
+	session_start();
 	include('testRabbitMQClient2.php');
 
 	$usrName = $_POST['usrName'];
@@ -7,9 +7,10 @@
 	$response = loginAuth($usrName, $usrPassword);
 
 	if ($response == true) {
-	     header("location: home.html");
+	     $_SESSION['username'] = $usrName;
+	     header("location: home.php");
 	} else {
              echo "\nlogin_auth.php: Incorrect Username/Password";
 	}
-
+exit();
 ?>
