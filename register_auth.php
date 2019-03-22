@@ -8,7 +8,7 @@
 	$response = registerAuth($usrName,$usrPassword,$usrEmail);
 
 	if ($response == true) {
-	     //header("location: loginpage.php");
+	     ///header("location: loginpage.php");
 	     echo "Account created";
 	} else {
              //echo "\nregister_auth.php: ";
