@@ -8,7 +8,7 @@
 
 	if ($response == true) {
 	     $_SESSION['username'] = $usrName;
-	     header("location: home.php");
+	     header("location: homepage.html");
 	} else {
              echo "\nlogin_auth.php: Incorrect Username/Password";
 	}
