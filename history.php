@@ -5,7 +5,6 @@
         <title>Page</title>
     </head>
     <body>
-      <table border="1">
 <?php
 //ini_set('display_errors', 1);
 //ini_set('display_startup_errors', 1);
@@ -22,23 +21,20 @@
      } else {
           $sqlStatement = "SELECT * FROM login LEFT JOIN wallet ON login.id = wallet.id WHERE login.username='andre'";          
 	  $record = fetchData($usrName, $sqlStatement);
-	  print_r($record);
+	  //print_r($record);
 
-//////////////////////////////////////////
-/*
-	$myArray = ["1","2","3"];
-	$html = "<table>";
-	foreach($myArray as $row) {
-	     $html .= "<tr>";
-     	     foreach ($row as $cell) {
-		$html .= "<td>" . $cell . "</td>";
-	     }
-	     $html .= "</tr>";
-        }
-	$html .= "</table>";
-*/
-///////////////////////
-     }
+          $html = "<table>";
+
+          foreach($record as $key => $row) {
+               $html .= "<tr>";
+               $html .= "<td>" . $key . ': ' . $row . "</td>";
+               $html .= "</tr>";
+          }
+
+          $html .= "</table>";
+	  //Important part below          
+          echo $html;
+     } //else statement
 
 exit();
 ?>
