@@ -10,7 +10,7 @@ require_once('rabbitMQLib.inc');
 
 function loginAuth($usrName, $usrPassword) {
 	//echo "loginAuth method run";
-	$db = mysqli_connect("127.0.0.1", "asif2", "njit123", "490db");
+	$db = mysqli_connect("127.0.0.1", "admin", "password", "490db");
 
 	if  (!$db) {
 	     die("MySQL Connection Failed: " . mysqli_connect_error() );
@@ -27,8 +27,30 @@ function loginAuth($usrName, $usrPassword) {
 	}
 }
 
+
+function fetchData($usrName, $sqlStatement) {
+        $db = mysqli_connect("127.0.0.1", "admin", "password", "490db");
+        $runQuery = mysqli_query($db, $sqlStatement);
+
+        if  (!$db) {
+             die("MySQL Connection Failed: " . mysqli_connect_error() );
+        } else {
+             $row = mysqli_fetch_assoc($runQuery);
+	     print_r($row);
+             return $row;
+	     //print_r($new_array);
+             //print_r($arrayToString);
+	     //$secondArray = $new_array['0'];
+	     //print_r($secondArray);	     
+	     //$arrayToString = implode(',',$new_array);             	     
+	     //print_r($arrayToString);
+             //return $arrayToString;
+             //return $secondArray;
+  	}
+}
+
 function registerAuth($usrName,$usrPassword,$usrEmail) {
-	$db = mysqli_connect("127.0.0.1", "asif2", "njit123", "490db");
+	$db = mysqli_connect("127.0.0.1", "admin", "password", "490db");
         if  (!$db) {
              die("MySQL Connection Failed: " . mysqli_connect_error() );
         } else {
@@ -66,6 +88,8 @@ function requestProcessor($request)
       return loginAuth($request['usrName'],$request['usrPassword']);
     case "register":
       return registerAuth($request['usrName'],$request['usrPassword'],$request['usrEmail']);
+    case "fetch":
+      return fetchData($request['usrName'], $request['sqlStatement']);
     //case "validate_session":
       //return doValidate($request['sessionId']);
   }
