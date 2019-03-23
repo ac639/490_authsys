@@ -23,17 +23,28 @@
 	  $record = fetchData($usrName, $sqlStatement);
 	  //print_r($record);
 
-          $html = "<table>";
+	  //Display as HTML TABLE
+          //$html = "<table>";
+          //foreach($record as $key => $row) {
+          //     $html .= "<tr>";
+               //$html .= "<td>" . $key . ': ' . $row . "</td>";
+	  //     $html .= "<td>". $row . "</td>";
+          //     $html .= "</tr>";
+          //}
+          //$html .= "</table>";
+          //echo $html;
+          /////END OF DISPLAY AS HTML
 
-          foreach($record as $key => $row) {
-               $html .= "<tr>";
-               $html .= "<td>" . $key . ': ' . $row . "</td>";
-               $html .= "</tr>";
-          }
-
-          $html .= "</table>";
-	  //Important part below          
+	  //DISPLAY AS DIVS
+	  $html = "<div>";
+ 	  foreach($record as $key => $row) {
+	       $html .= "<div>". $row . "</div>";
+	  }
+	  $html .= "</table>";
           echo $html;
+          //END OF DISPLAY AS DIVS
+
+
      } //else statement
 
 exit();
