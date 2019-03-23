@@ -19,7 +19,7 @@
      if (!isset($_SESSION['username'])) {
           echo "You are not logged in";
      } else {
-          $sqlStatement = "SELECT * FROM login LEFT JOIN wallet ON login.id = wallet.id WHERE login.username='andre'";          
+          $sqlStatement = "SELECT * FROM login LEFT JOIN wallet ON login.id = wallet.id WHERE login.username='$usrName'";          
 	  $record = fetchData($usrName, $sqlStatement);
 	  //print_r($record);
 
@@ -42,5 +42,6 @@ exit();
 </body>
 
 </html>
+
 
 
