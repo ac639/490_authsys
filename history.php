@@ -22,28 +22,36 @@
      } else {
           $sqlStatement = "SELECT * FROM login LEFT JOIN wallet ON login.id = wallet.id WHERE login.username='$usrName'";          
 	  $record = fetchData($usrName, $sqlStatement);
-	  //print_r($record);
 
 	  //Display as HTML TABLE
-          //$html = "<table>";
-          //foreach($record as $key => $row) {
-          //     $html .= "<tr>";
+            //$html = "<table>";
+            //foreach($record as $key => $row) {
+            //     $html .= "<tr>";
                //$html .= "<td>" . $key . ': ' . $row . "</td>";
-	  //     $html .= "<td>". $row . "</td>";
-          //     $html .= "</tr>";
-          //}
-          //$html .= "</table>";
-          //echo $html;
+	    //     $html .= "<td>". $row . "</td>";
+            //     $html .= "</tr>";
+            //}
+            //$html .= "</table>";
+            //echo $html;
           /////END OF DISPLAY AS HTML
 
 	  //DISPLAY AS DIVS
-	  $html = "<div>";
- 	  foreach($record as $key => $row) {
+	    $html = "<div>";
+ 	    foreach($record as $key => $row) {
 	       $html .= "<div>". $row . "</div>";
-	  }
-	  $html .= "</table>";
-          echo $html;
+	    }
+	    $html .= "</table>";
+            echo $html;
           //END OF DISPLAY AS DIVS
+
+	  //DISPLAY IN AN ALREADY EXISTING HTML DIV
+            foreach($record as $key => $row) {
+               //$html .= "<div>". $row . "</div>";
+               //$html .= $row;
+               echo $row;
+            }
+	  //END OF DISPLAY
+
 
 
      } //else statement
