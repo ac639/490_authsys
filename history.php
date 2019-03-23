@@ -5,6 +5,7 @@
         <title>Page</title>
     </head>
     <body>
+    <div id = "div1"
 <?php
 //ini_set('display_errors', 1);
 //ini_set('display_startup_errors', 1);
@@ -49,7 +50,7 @@
 
 exit();
 ?>
-
+</div>
 </body>
 
 </html>

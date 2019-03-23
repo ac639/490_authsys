@@ -59,14 +59,14 @@ function registerAuth($usrName,$usrPassword,$usrEmail) {
         $response = $client->send_request($request);
         //$response = $client->publish($request);
 
-        echo "client received response: ".PHP_EOL;
+        //echo "client received response: ".PHP_EOL;
         //print_r($response);
         //return for test
         return $response;
         //
         //echo "\n\n";
 
-        echo $argv[0]." END".PHP_EOL;
+        //echo $argv[0]." END".PHP_EOL;
 }
 
 

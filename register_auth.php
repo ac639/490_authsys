@@ -8,11 +8,14 @@
 	$response = registerAuth($usrName,$usrPassword,$usrEmail);
 
 	if ($response == true) {
-	     ///header("location: loginpage.php");
-	     echo "Account created";
+	     echo "Account created...Redirecting";
+	     //header("location: ../login.html");
+	     header("refresh:2; url=../login.html");
 	} else {
              //echo "\nregister_auth.php: ";
-	     echo "Username or Email already exists";
+	     echo "Username/Email already exists...Redirecting";
+	     header("refresh:2; url=../login.html");
+
 	}
 
 ?>
