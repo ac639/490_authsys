@@ -67,7 +67,14 @@ function registerAuth($usrName,$usrPassword,$usrEmail) {
 		  return false;
              } else {
                 mysqli_query($db, "INSERT INTO login(username, password, email) VALUES('$usrName', '$usrPassword', '$usrEmail')");
-                echo "\naccount created\n";
+		$getUserID = mysqli_query($db, "SELECT id FROM login WHERE username='$usrName'");
+		//print_r($getUserID);
+		$userID = mysqli_fetch_assoc($getUserID);
+		//print_r($userID);
+		$resultUserID = (int)$userID['id'];
+		//print_r(gettype($resultUserID));
+		mysqli_query($db, "INSERT INTO wallet(id, balance) VALUES('$resultUserID', 100)");
+		echo "\naccount created\n";
                 return true;
 	     }
        }
