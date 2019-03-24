@@ -11,7 +11,7 @@
 //ini_set('display_startup_errors', 1);
 //error_reporting(E_ALL);
 
-     include('testRabbitMQClient2.php');
+     include_once('testRabbitMQClient2.php');
 
      session_start();
 
