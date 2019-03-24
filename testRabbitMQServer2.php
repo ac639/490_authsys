@@ -46,6 +46,7 @@ function fetchData($usrName, $sqlStatement) {
 	     //print_r($arrayToString);
              //return $arrayToString;
              //return $secondArray;
+	     mysqli_close();
   	}
 }
 
