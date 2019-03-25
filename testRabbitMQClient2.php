@@ -1,5 +1,9 @@
 <?php
 //#!/usr/bin/php
+ini_set('log_errors',1);
+ini_set('error_log', dirname(__FILE__) . '/490rabbitmq.log');
+error_reporting(E_ALL);
+
 require_once('path.inc');
 require_once('get_host_info.inc');
 require_once('rabbitMQLib.inc');
