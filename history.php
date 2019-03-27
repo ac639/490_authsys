@@ -20,16 +20,17 @@
      if (!isset($_SESSION['username'])) {
           echo "You are not logged in";
      } else {
-          $sqlStatement = "SELECT * FROM login LEFT JOIN wallet ON login.id = wallet.id WHERE login.username='$usrName'";          
+          //$sqlStatement = "SELECT * FROM login LEFT JOIN wallet ON login.id = wallet.id WHERE login.username='$usrName'";          
+          $sqlStatement = "SELECT * FROM login";          
 	  $record = fetchData($usrName, $sqlStatement);
 
 	  //Display as HTML TABLE
             //$html = "<table>";
             //foreach($record as $key => $row) {
-            //     $html .= "<tr>";
-               //$html .= "<td>" . $key . ': ' . $row . "</td>";
-	    //     $html .= "<td>". $row . "</td>";
-            //     $html .= "</tr>";
+                 //$html .= "<tr>";
+                 //$html .= "<td>" . $key . ': ' . $row . "</td>";
+	         //$html .= "<td>". $row . "</td>";
+                 //$html .= "</tr>";
             //}
             //$html .= "</table>";
             //echo $html;
@@ -45,11 +46,11 @@
           //END OF DISPLAY AS DIVS
 
 	  //DISPLAY IN AN ALREADY EXISTING HTML DIV
-            foreach($record as $key => $row) {
+            //foreach($record as $key => $row) {
                //$html .= "<div>". $row . "</div>";
                //$html .= $row;
-               echo $row;
-            }
+              // echo $row;
+            //}
 	  //END OF DISPLAY
 
 

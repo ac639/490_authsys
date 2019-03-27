@@ -20,3 +20,737 @@
 [25-Mar-2019 02:15:34 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
 [25-Mar-2019 02:15:34 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 148
 [25-Mar-2019 02:16:03 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 15:13:27 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 16:19:20 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 105
+[25-Mar-2019 16:19:20 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 16:19:42 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 108
+[25-Mar-2019 16:19:42 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 126
+[25-Mar-2019 16:19:42 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 16:19:42 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 129
+[25-Mar-2019 16:19:42 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 145
+[25-Mar-2019 16:19:42 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 16:19:42 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 148
+[25-Mar-2019 17:37:22 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 66
+[25-Mar-2019 17:37:22 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 17:37:24 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 66
+[25-Mar-2019 17:37:24 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 17:37:40 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 66
+[25-Mar-2019 18:19:51 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/490_authsys/history.php on line 18
+[25-Mar-2019 18:20:03 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 18:20:35 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 18:24:57 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 85
+[25-Mar-2019 18:24:57 America/New_York] PHP Notice:  Undefined variable: record in /var/www/html/490website/practice.php on line 97
+[25-Mar-2019 18:24:57 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/practice.php on line 97
+[25-Mar-2019 18:25:21 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 18:25:31 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 85
+[25-Mar-2019 18:25:31 America/New_York] PHP Notice:  Undefined variable: record in /var/www/html/490website/practice.php on line 97
+[25-Mar-2019 18:25:31 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/practice.php on line 97
+[25-Mar-2019 18:27:34 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 85
+[25-Mar-2019 18:27:34 America/New_York] PHP Notice:  Undefined variable: record in /var/www/html/490website/practice.php on line 97
+[25-Mar-2019 18:27:34 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/practice.php on line 97
+[25-Mar-2019 18:29:47 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 85
+[25-Mar-2019 18:29:47 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 18:32:24 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 85
+[25-Mar-2019 18:32:24 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 18:32:29 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 85
+[25-Mar-2019 18:32:29 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 18:34:17 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 85
+[25-Mar-2019 18:34:17 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 18:34:19 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 85
+[25-Mar-2019 18:34:19 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 18:34:20 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 85
+[25-Mar-2019 18:34:20 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 18:40:48 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 85
+[25-Mar-2019 18:40:48 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 18:42:31 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 85
+[25-Mar-2019 18:42:31 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 18:43:31 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 85
+[25-Mar-2019 18:43:31 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 18:43:48 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 85
+[25-Mar-2019 18:43:48 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 18:46:28 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 85
+[25-Mar-2019 18:46:28 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 18:52:30 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 18:53:20 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 18:56:38 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 18:56:38 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_assoc() in /var/www/html/490website/490_authsys/testRabbitMQServer2.php:38
+Stack trace:
+#0 /var/www/html/490website/490_authsys/testRabbitMQServer2.php(104): fetchData('andre', 'SELECT * FROM l...')
+#1 /var/www/html/490website/490_authsys/rabbitMQLib.inc(58): requestProcessor(Array)
+#2 [internal function]: rabbitMQServer->process_message(Object(AMQPEnvelope), Object(AMQPQueue))
+#3 /var/www/html/490website/490_authsys/rabbitMQLib.inc(122): AMQPQueue->consume(Array)
+#4 /var/www/html/490website/490_authsys/testRabbitMQServer2.php(114): rabbitMQServer->process_requests('requestProcesso...')
+#5 {main}
+  thrown in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 38
+[25-Mar-2019 19:03:21 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 36
+[25-Mar-2019 19:04:03 America/New_York] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 36
+[25-Mar-2019 19:05:27 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:05:30 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects exactly 1 parameter, 0 given in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 36
+[25-Mar-2019 19:05:30 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/490_authsys/history.php on line 41
+[25-Mar-2019 19:05:30 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:05:30 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects exactly 1 parameter, 0 given in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 36
+[25-Mar-2019 19:05:30 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/490_authsys/history.php on line 41
+[25-Mar-2019 19:05:31 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:05:31 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects exactly 1 parameter, 0 given in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 36
+[25-Mar-2019 19:05:31 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/490_authsys/history.php on line 41
+[25-Mar-2019 19:05:31 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:05:49 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:05:49 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects exactly 1 parameter, 0 given in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 36
+[25-Mar-2019 19:05:49 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/490_authsys/history.php on line 41
+[25-Mar-2019 19:06:06 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:06:06 America/New_York] PHP Warning:  mysqli_fetch_assoc() expects exactly 1 parameter, 0 given in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 36
+[25-Mar-2019 19:06:06 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/490_authsys/history.php on line 41
+[25-Mar-2019 19:08:20 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 37
+[25-Mar-2019 19:08:20 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/490_authsys/history.php on line 41
+[25-Mar-2019 19:08:56 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:08:56 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/490_authsys/history.php on line 41
+[25-Mar-2019 19:12:31 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:12:31 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 40
+[25-Mar-2019 19:12:31 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/490_authsys/history.php on line 41
+[25-Mar-2019 19:12:51 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:12:51 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/490_authsys/history.php on line 41
+[25-Mar-2019 19:13:42 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Undefined variable: new_array in /var/www/html/490website/490_authsys/testRabbitMQServer2.php on line 39
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:13:42 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:14:03 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:15:04 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:16:16 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 85
+[25-Mar-2019 19:16:16 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:18:03 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 85
+[25-Mar-2019 19:18:03 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:18:06 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/practice.php on line 101
+[25-Mar-2019 19:18:06 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/practice.php on line 101
+[25-Mar-2019 19:18:06 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/practice.php on line 101
+[25-Mar-2019 19:18:06 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/practice.php on line 101
+[25-Mar-2019 19:18:06 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/practice.php on line 101
+[25-Mar-2019 19:18:06 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/practice.php on line 101
+[25-Mar-2019 19:21:41 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:21:41 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/490_authsys/history.php on line 42
+[25-Mar-2019 19:39:37 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 19:39:37 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:39:37 America/New_York] PHP Notice:  Undefined variable: s in /var/www/html/490website/practice.php on line 105
+[25-Mar-2019 19:39:37 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/practice.php on line 105
+[25-Mar-2019 19:42:12 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 19:42:12 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:42:12 America/New_York] PHP Notice:  Undefined variable: values in /var/www/html/490website/practice.php on line 107
+[25-Mar-2019 19:42:12 America/New_York] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /var/www/html/490website/practice.php on line 107
+[25-Mar-2019 19:42:12 America/New_York] PHP Notice:  Undefined variable: values in /var/www/html/490website/practice.php on line 107
+[25-Mar-2019 19:42:12 America/New_York] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /var/www/html/490website/practice.php on line 107
+[25-Mar-2019 19:42:12 America/New_York] PHP Notice:  Undefined variable: values in /var/www/html/490website/practice.php on line 107
+[25-Mar-2019 19:42:12 America/New_York] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /var/www/html/490website/practice.php on line 107
+[25-Mar-2019 19:42:12 America/New_York] PHP Notice:  Undefined variable: values in /var/www/html/490website/practice.php on line 107
+[25-Mar-2019 19:42:12 America/New_York] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /var/www/html/490website/practice.php on line 107
+[25-Mar-2019 19:42:12 America/New_York] PHP Notice:  Undefined variable: values in /var/www/html/490website/practice.php on line 107
+[25-Mar-2019 19:42:12 America/New_York] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /var/www/html/490website/practice.php on line 107
+[25-Mar-2019 19:42:12 America/New_York] PHP Notice:  Undefined variable: values in /var/www/html/490website/practice.php on line 107
+[25-Mar-2019 19:42:12 America/New_York] PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /var/www/html/490website/practice.php on line 107
+[25-Mar-2019 19:57:55 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 19:57:55 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 19:58:35 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 19:58:35 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:00:25 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 20:00:25 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:00:31 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 20:00:31 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:01:59 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 20:01:59 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:05:00 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 20:05:00 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/practice.php on line 102
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/practice.php on line 102
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/practice.php on line 102
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/practice.php on line 102
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/practice.php on line 102
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/practice.php on line 102
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:05:01 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 20:10:17 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:10:17 America/New_York] PHP Notice:  Undefined variable: html in /var/www/html/490website/practice.php on line 116
+[25-Mar-2019 20:15:00 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 20:15:00 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:15:00 America/New_York] PHP Notice:  Undefined variable: tmpArray in /var/www/html/490website/practice.php on line 102
+[25-Mar-2019 20:15:00 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/practice.php on line 102
+[25-Mar-2019 20:16:36 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 20:16:36 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:17:10 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 20:17:10 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:17:52 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 20:17:52 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:18:49 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 20:18:49 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:19:15 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 20:19:15 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:20:37 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 20:20:37 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:21:17 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 20:21:17 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:22:00 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 20:22:00 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:22:23 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 20:22:23 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:45:29 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 105
+[25-Mar-2019 20:45:29 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:45:37 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 108
+[25-Mar-2019 20:45:37 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 126
+[25-Mar-2019 20:45:37 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:45:37 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 129
+[25-Mar-2019 20:45:37 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 145
+[25-Mar-2019 20:45:37 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:45:37 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 148
+[25-Mar-2019 20:45:51 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:45:54 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:45:54 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/window_2.php on line 109
+[25-Mar-2019 20:45:54 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:45:54 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/window_2.php on line 130
+[25-Mar-2019 20:45:54 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:45:54 America/New_York] PHP Notice:  Array to string conversion in /var/www/html/490website/window_2.php on line 149
+[25-Mar-2019 20:48:26 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 20:48:26 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 20:52:22 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 20:52:22 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:25:28 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 23:25:28 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:25:28 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/practice.php on line 104
+[25-Mar-2019 23:25:28 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/practice.php on line 104
+[25-Mar-2019 23:26:38 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 23:26:38 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:27:55 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 23:27:55 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:28:01 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 23:28:01 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:28:15 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:28:18 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:28:18 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:28:18 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:29:44 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:29:44 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:29:44 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:30:21 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:30:21 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:30:21 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:30:32 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:30:33 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:30:33 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:30:37 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 23:30:37 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:31:10 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:31:33 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:31:33 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:37:20 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:37:20 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:37:20 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:37:34 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:37:37 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:37:37 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:37:37 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:37:37 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 148
+[25-Mar-2019 23:37:55 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:37:57 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:37:57 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:37:57 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 148
+[25-Mar-2019 23:38:05 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:38:39 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 23:38:39 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:40:32 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 23:40:33 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:41:19 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 23:41:19 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:41:24 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 23:41:24 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:46:58 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 23:46:58 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:48:12 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 23:48:12 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:49:10 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 23:49:10 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:50:09 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/practice.php on line 86
+[25-Mar-2019 23:50:09 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[25-Mar-2019 23:52:55 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:30:14 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:30:14 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:30:19 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 86
+[26-Mar-2019 00:30:19 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:30:55 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 86
+[26-Mar-2019 00:30:55 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:32:15 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 86
+[26-Mar-2019 00:32:15 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:36:13 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:36:13 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:36:51 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:36:51 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:37:06 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:37:06 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:37:29 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:37:29 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:37:57 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:37:57 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:38:19 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:38:19 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:38:47 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:38:47 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:39:05 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:39:05 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:39:46 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:39:46 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:40:30 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:40:30 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:40:34 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:40:34 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:41:55 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:41:55 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:42:08 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:42:08 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:43:24 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:43:24 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:44:17 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:44:17 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:44:47 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:44:47 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:45:01 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:45:01 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:45:01 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:45:11 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:45:11 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:45:11 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:46:13 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:46:14 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:46:14 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:46:32 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:46:32 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:46:32 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:46:41 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:46:41 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:48:25 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:48:25 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:49:09 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:49:09 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:49:09 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:49:15 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:49:15 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:50:46 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:50:52 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:50:52 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:51:12 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:51:12 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:51:12 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 00:52:13 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 00:52:13 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 15:12:01 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 15:12:05 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 15:12:05 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 15:12:06 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 15:12:12 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 15:12:12 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 15:19:02 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 15:19:02 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 15:38:37 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 15:38:37 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 15:39:04 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 15:39:04 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 16:05:45 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 16:05:45 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 16:05:45 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/matches.php on line 109
+[26-Mar-2019 16:05:45 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/matches.php on line 109
+[26-Mar-2019 16:18:22 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 16:18:22 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 16:18:22 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/matches.php on line 109
+[26-Mar-2019 16:18:22 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/matches.php on line 109
+[26-Mar-2019 16:18:50 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 16:18:50 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 16:18:50 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/matches.php on line 109
+[26-Mar-2019 16:18:50 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/matches.php on line 109
+[26-Mar-2019 16:19:00 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 16:19:00 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 16:22:43 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/matches.php on line 108
+[26-Mar-2019 16:22:47 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 16:22:47 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 16:22:47 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/matches.php on line 108
+[26-Mar-2019 16:38:12 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 16:38:12 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 16:44:43 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 16:44:43 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 16:45:14 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 16:45:14 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 16:46:12 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 16:46:12 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 16:46:33 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 16:46:33 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 16:47:31 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 16:47:31 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 16:53:17 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 16:53:17 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 16:56:09 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 16:56:09 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 16:57:03 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 16:57:03 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 16:59:43 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 16:59:43 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:01:01 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:01:01 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:02:13 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:02:13 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:04:00 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:04:00 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:05:38 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:05:38 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:08:43 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:08:43 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:09:24 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:09:24 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:09:53 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:09:53 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:10:40 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:10:40 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:11:33 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:11:33 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:12:33 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:12:33 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:13:34 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:13:34 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:14:33 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:14:33 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:16:09 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:16:09 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:16:57 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:16:57 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:19:43 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:19:43 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:25:43 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:25:43 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:39:22 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:39:22 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:48:57 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:48:57 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:55:34 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:55:34 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:55:53 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:55:53 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:58:35 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:58:35 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 17:59:21 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 17:59:21 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:05:45 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:05:45 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:06:36 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:06:36 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:07:06 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:07:06 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:08:03 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:08:03 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:08:45 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:08:45 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:09:13 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:09:14 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:09:40 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:09:40 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:10:19 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:10:19 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:12:28 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:12:28 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:16:55 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:16:55 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:17:17 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:17:17 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:17:21 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:17:21 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:17:22 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:17:22 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:18:44 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:18:44 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:20:49 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:20:49 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:20:54 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:20:54 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:20:56 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:20:56 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:29:17 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:29:17 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:29:49 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 105
+[26-Mar-2019 18:29:49 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:30:00 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 108
+[26-Mar-2019 18:30:00 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 126
+[26-Mar-2019 18:30:00 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:30:01 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 129
+[26-Mar-2019 18:30:01 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 145
+[26-Mar-2019 18:30:01 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:30:01 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 148
+[26-Mar-2019 18:30:01 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 105
+[26-Mar-2019 18:30:01 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:30:01 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 108
+[26-Mar-2019 18:30:01 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 126
+[26-Mar-2019 18:30:01 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:30:01 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 129
+[26-Mar-2019 18:30:01 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 145
+[26-Mar-2019 18:30:01 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:30:01 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 148
+[26-Mar-2019 18:30:21 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 105
+[26-Mar-2019 18:30:21 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:30:21 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 108
+[26-Mar-2019 18:30:21 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 126
+[26-Mar-2019 18:30:21 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:30:21 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 129
+[26-Mar-2019 18:30:21 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 145
+[26-Mar-2019 18:30:21 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:30:21 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 148
+[26-Mar-2019 18:30:25 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 105
+[26-Mar-2019 18:30:25 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:30:25 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 108
+[26-Mar-2019 18:30:25 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 126
+[26-Mar-2019 18:30:25 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:30:25 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 129
+[26-Mar-2019 18:30:25 America/New_York] PHP Notice:  Undefined index: username in /var/www/html/490website/window_2.php on line 145
+[26-Mar-2019 18:30:25 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:30:26 America/New_York] PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/490website/window_2.php on line 148
+[26-Mar-2019 18:31:16 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:31:16 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 18:56:46 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 18:56:46 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 19:05:13 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 19:05:13 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 19:11:37 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 19:11:37 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 19:20:04 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 19:20:04 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 19:20:15 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 19:20:15 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 19:20:19 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 19:20:19 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 19:21:49 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 19:21:49 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 19:40:37 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 19:40:37 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 19:46:09 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 19:46:09 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 19:46:30 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 66
+[26-Mar-2019 19:46:30 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 19:46:30 America/New_York] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, array given in /var/www/html/490website/matches.php on line 69
+[26-Mar-2019 19:50:09 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 66
+[26-Mar-2019 19:50:09 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 19:51:15 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 66
+[26-Mar-2019 19:51:15 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 19:55:35 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 66
+[26-Mar-2019 19:55:35 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 19:55:45 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 66
+[26-Mar-2019 19:55:45 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
+[26-Mar-2019 19:58:51 America/New_York] PHP Notice:  Undefined variable: _SESSION in /var/www/html/490website/matches.php on line 90
+[26-Mar-2019 19:58:51 America/New_York] PHP Deprecated:  Function AMQPQueue::declare() is deprecated in /var/www/html/490website/490_authsys/rabbitMQLib.inc on line 215
