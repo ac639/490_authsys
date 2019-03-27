@@ -36,18 +36,38 @@ function fetchData($usrName, $sqlStatement) {
              die("MySQL Connection Failed: " . mysqli_connect_error() );
         } else {
              $row = mysqli_fetch_assoc($runQuery);
-	     print_r($row);
+             print_r($row);
              return $row;
-	     //print_r($new_array);
+             //print_r($new_array);
              //print_r($arrayToString);
-	     //$secondArray = $new_array['0'];
-	     //print_r($secondArray);	     
-	     //$arrayToString = implode(',',$new_array);             	     
-	     //print_r($arrayToString);
+             //$secondArray = $new_array['0'];
+             //print_r($secondArray);        
+             //$arrayToString = implode(',',$new_array);
+             //print_r($arrayToString);
              //return $arrayToString;
              //return $secondArray;
-	     mysqli_close();
-  	}
+             mysqli_close();
+        }
+}
+
+
+
+function fetchMatch($usrName, $sqlStatement) {
+        $db = mysqli_connect("127.0.0.1", "admin", "password", "490db");
+        $runQuery = mysqli_query($db, $sqlStatement);
+	$queryResults = mysqli_num_rows($runQuery);
+	
+	if (!$db) {
+		die("MySQL Connection Failed: " . mysqli_connect_error() );
+	} else {
+             if ( $queryResults > 0 ) {
+		while ($row = mysqli_fetch_assoc($runQuery)) {
+		     $tmpArray[] = $row; 
+		}
+		print_r($tmpArray);
+		return $tmpArray;
+	     }
+       }
 }
 
 function registerAuth($usrName,$usrPassword,$usrEmail) {
@@ -96,8 +116,10 @@ function requestProcessor($request)
       return loginAuth($request['usrName'],$request['usrPassword']);
     case "register":
       return registerAuth($request['usrName'],$request['usrPassword'],$request['usrEmail']);
-    case "fetch":
+    case "fetchData":
       return fetchData($request['usrName'], $request['sqlStatement']);
+    case "fetchMatch":
+      return fetchMatch($request['usrName'], $request['sqlStatement']);
     //case "validate_session":
       //return doValidate($request['sessionId']);
   }
@@ -111,4 +133,5 @@ $server->process_requests('requestProcessor');
 echo "testRabbitMQServer END".PHP_EOL;
 exit();
 ?>
+
 
