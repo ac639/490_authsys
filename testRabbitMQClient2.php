@@ -40,6 +40,52 @@ function loginAuth($usrName, $usrPassword) {
 	echo $argv[0]." END".PHP_EOL;
 }
 
+
+function wlratio($usrName) {
+        $client = new rabbitMQClient("testRabbitMQ.ini","testServer");
+        if (isset($argv[1]))
+        {
+                $msg = $argv[1];
+        }
+        else
+        {
+                $msg = "test message";
+        }
+
+        $request = array();
+        $request['type'] = "winlossratio";
+        $request['usrName'] = $usrName;
+        $response = $client->send_request($request);
+
+        return $response;
+
+}
+
+
+function placeBet($usrName, $matchid, $betteam) {
+        $client = new rabbitMQClient("testRabbitMQ.ini","testServer");
+        if (isset($argv[1]))
+        {
+                $msg = $argv[1];
+        }
+        else
+        {
+                $msg = "test message";
+        }
+
+        $request = array();
+        $request['type'] = "betting";
+        $request['usrName'] = $usrName;
+	$request['matchid'] = $matchid;
+	$request['betteam'] = $betteam;
+        $request['message'] = $msg;
+        $response = $client->send_request($request);
+
+        return $response;
+
+}
+
+
 function fetchData($usrName, $sqlStatement) {
         $client = new rabbitMQClient("testRabbitMQ.ini","testServer");
         if (isset($argv[1]))
@@ -52,27 +98,39 @@ function fetchData($usrName, $sqlStatement) {
         }
 
         $request = array();
-        //$request['type'] = "Login";
         $request['type'] = "fetchData";
-        //$request['username'] = "steve";
-        //$request['password'] = "password";
         $request['usrName'] = $usrName;
         $request['sqlStatement'] = $sqlStatement;
         $request['message'] = $msg;
         $response = $client->send_request($request);
-        //$response = $client->publish($request);
 
-        //echo "client received response: ".PHP_EOL;
-        //print_r($response);
-        //return for test
         return $response;
-        
-        //echo "\n\n";
 
-        //echo $argv[0]." END".PHP_EOL;
+}
+
+function searchMatch($srch, $sqlStatement) {
+        $client = new rabbitMQClient("testRabbitMQ.ini","testServer");
+        if (isset($argv[1]))
+        {
+                $msg = $argv[1];
+        }
+        else
+        {
+                $msg = "test message";
+        }
+
+        $request = array();
+        $request['type'] = "matchsearch";
+        $request['srch'] = $srch;
+        $request['sqlStatement'] = $sqlStatement;
+        $request['message'] = $msg;
+        $response = $client->send_request($request);
+
+        return $response;
 
 
 }
+
 
 function fetchMatch($usrName, $sqlStatement) {
         $client = new rabbitMQClient("testRabbitMQ.ini","testServer");
@@ -86,12 +144,37 @@ function fetchMatch($usrName, $sqlStatement) {
         }
 
         $request = array();
-        //$request['type'] = "Login";
         $request['type'] = "fetchMatch";
-        //$request['username'] = "steve";
-        //$request['password'] = "password";
         $request['usrName'] = $usrName;
         $request['sqlStatement'] = $sqlStatement;
+        $request['message'] = $msg;
+        $response = $client->send_request($request);
+
+        return $response;
+        
+
+
+}
+
+
+function passChange($usrPassword, $usrEmail) {
+        $client = new rabbitMQClient("testRabbitMQ.ini","testServer");
+        if (isset($argv[1]))
+        {
+                $msg = $argv[1];
+        }
+        else
+        {
+                $msg = "test message";
+        }
+
+        $request = array();
+        //$request['type'] = "Login";
+        $request['type'] = "passChange";
+        //$request['username'] = "steve";
+        //$request['password'] = "password";
+        $request['usrPassword'] = $usrPassword;
+        $request['usrEmail'] = $usrEmail;
         $request['message'] = $msg;
         $response = $client->send_request($request);
         //$response = $client->publish($request);
@@ -107,8 +190,6 @@ function fetchMatch($usrName, $sqlStatement) {
 
 
 }
-
-
 
 function registerAuth($usrName,$usrPassword,$usrEmail) {
         $client = new rabbitMQClient("testRabbitMQ.ini","testServer");
@@ -143,6 +224,8 @@ function registerAuth($usrName,$usrPassword,$usrEmail) {
         //echo $argv[0]." END".PHP_EOL;
 }
 
+
+?>
 
 
 

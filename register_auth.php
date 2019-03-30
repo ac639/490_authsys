@@ -1,6 +1,6 @@
 <?php
         ini_set('log_errors',1);
-        ini_set('error_log', dirname(__FILE__) . '/register_auth.log');
+        ini_set('error_log', dirname(__FILE__) . 'register_auth.log');
         error_reporting(E_ALL);
 
 	//session_start();
