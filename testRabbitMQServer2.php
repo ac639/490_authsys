@@ -1,12 +1,30 @@
 #!/usr/bin/php
 <?php
-ini_set('log_errors',1);
-ini_set('error_log', dirname(__FILE__) . '/490rabbitmq.log');
-error_reporting(E_ALL);
+//ini_set('log_errors',1);
+//ini_set('error_log', dirname(__FILE__) . '/var/www/html/490auth_and_website/490_authsys/490rabbitmq.log');
+//error_reporting(E_ALL);
 
 require_once('path.inc');
 require_once('get_host_info.inc');
 require_once('rabbitMQLib.inc');
+
+
+function searchMatch($search, $sqlStatement) {
+        $db = mysqli_connect("127.0.0.1", "admin", "password", "490db");
+        $runQuery = mysqli_query($db, $sqlStatement);
+        $queryResults = mysqli_num_rows($runQuery);
+        if (!$db) {
+                die("MySQL Connection Failed: " . mysqli_connect_error() );
+        } else {
+             if ( $queryResults > 0 ) {
+                while ($row = mysqli_fetch_assoc($runQuery)) {
+                     $tmpArray[] = $row; 
+                }
+                print_r($tmpArray);
+                return $tmpArray;
+             }
+       }
+}
 
 function loginAuth($usrName, $usrPassword) {
 	//echo "loginAuth method run";
@@ -28,28 +46,8 @@ function loginAuth($usrName, $usrPassword) {
 }
 
 
-function searchMatch($srch, $sqlStatement) {
-        $db = mysqli_connect("127.0.0.1", "admin", "password", "490db");
-        $runQuery = mysqli_query($db, $sqlStatement);
-        $queryResults = mysqli_num_rows($runQuery);
-
-        if (!$db) {
-                die("MySQL Connection Failed: " . mysqli_connect_error() );
-        } else {
-             if ( $queryResults > 0 ) {
-                while ($row = mysqli_fetch_assoc($runQuery)) {
-                     $tmpArray[] = $row;
-                }
-                print_r($tmpArray);
-                return $tmpArray;
-             }
-       }
-}
-
-
-
 function wlratio($usrName) {
-	echo "\nwlraio called\n";
+	echo "\nwlratio called\n";
 	$db = mysqli_connect("127.0.0.1", "admin", "password", "490db");
         if  (!$db) {
              die("MySQL Connection Failed: " . mysqli_connect_error() );
@@ -75,15 +73,19 @@ function wlratio($usrName) {
 		  if ($event_status == "Finished") {
 		       if ($homeoraway == "Home") {
 		            $homescore = (int)$event_final_result[0];
-			    $awayscore = (int)$event_final_result[2];
+			    $awayscore = (int)$event_final_result[4];
 			    if ($homescore > $awayscore) {
 			         $win += 1;
 			    } elseif ($homescore < $awayscore) {
 			         $loss += 1;
+			    } else {
+			        $win += 0;
+				$loss += 0;
 			    }
 		       }
 		  } else {
 		   //Do nothing as match has not finished
+		   return $resultUserID;
 		  }
 	     }
 	     //Loop for "Away"
@@ -97,34 +99,40 @@ function wlratio($usrName) {
 		  $homeoraway = $row['homeoraway'];
 		  if ($event_status == "Finished") {
 		       if ($homeoraway == "Away") {
-		            $homescore = (int)$event_final_result[0];
-			    $awayscore = (int)$event_final_result[2];
+                            $homescore = (int)$event_final_result[0];
+                            $awayscore = (int)$event_final_result[4];
 			    if ($awayscore > $homescore) {
 			         $win += 1;
 			    } elseif ($awayscore < $homescore) {
 			         $loss += 1;
-			    }
+			    } else {
+                                $win += 0;
+                                $loss += 0;
+                            }
 		       }
 		  } else {
 		   //Do nothing as match has not finished
+		    return $resultUserID;
 		  }
 	     }
 	//////After all while loops
 	//echo "\nWins: $win\n";
 	//echo "\nLoss: $loss\n";
         $winlossratio = (100 * $win) / ($win + $loss);
-	
+
 	//INSERT THE RATIO INTO TABLE
 	$checkRow = "SELECT * FROM stats WHERE id='$resultUserID'";
         $checkRowExists = mysqli_query($db, $checkRow);
         if (mysqli_num_rows($checkRowExists) == 0) {
 	     mysqli_query($db, "INSERT INTO stats(id, event_key, win, loss, ratio) VALUES('$resultUserID', '$event_key', '$win', '$loss', '$winlossratio')");
 	     echo "\nInserted win/loss into stats table for $usrName\n";
+	     return $resultUserID;
 	} else {
 	     mysqli_query($db, "DELETE FROM stats WHERE id='$resultUserID'");
 	     echo "\nRow already exists, deleting win/loss row...ready for new row insert\n";	     
 	     mysqli_query($db, "INSERT INTO stats(id, event_key, win, loss, ratio) VALUES('$resultUserID', '$event_key', '$win', '$loss', '$winlossratio')");
 	     echo "\nInserted win/loss into stats table for $usrName\n";
+	     return $resultUserID;
 	}
 
     }
@@ -157,7 +165,7 @@ function placeBet($usrName, $matchid, $betteam) {
 		$getMatchScore = mysqli_query($db, "SELECT event_final_result FROM api WHERE event_key='$matchid'");
 	        $matchScore = mysqli_fetch_assoc($getMatchScore);
  		$resultMatchScore = $matchScore['event_final_result'];
-		echo "$resultMatchScore";
+		//echo "$resultMatchScore";
 		//END
 		//Get team
 		if ($betteam == "Home") { //BET FOR HOME TEAM
@@ -356,8 +364,8 @@ function requestProcessor($request)
       return placeBet($request['usrName'],$request['matchid'],$request['betteam']);
     case "winlossratio":
       return wlratio($request['usrName']);
-    case "matchsearch":
-      return searchMatch($request['srch'], $request['$sqlStatement']);
+    case "searchmatch":
+      return searchMatch($request['search'],$request['sqlStatement']);
     //case "validate_session":
       //return doValidate($request['sessionId']);
   }
