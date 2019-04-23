@@ -22,14 +22,14 @@
 	} else {
              if ($response == true) {
 	          $_SESSION['username'] = $usrName;
-	          header("location: ../homepage.php?login=success");
+	          header("location: ../site/homepage.php?login=success");
 		  $logFile = fopen("login_auth.log", "a") or die();
 		  $txt = "Login Successful: $usrName has logged in";
 		  fwrite($logFile, "\n". $txt);
                   fclose($logFile);
 	     } else {
                   echo "\nIncorrect Username/Password...redirecting";
-                  header("refresh:2; url=../login.html?login=error");
+                  header("refresh:2; url=../site/login.html?login=error");
 		  $logFile = fopen("login_auth.log", "a") or die();
                   $txt = "Login Failed: Username/Password Incorrect";
                   fwrite($logFile, "\n". $txt);
